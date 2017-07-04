@@ -10,6 +10,7 @@
 
                                 $( ".delete" ).remove();
                                 $( "div" ).removeClass("hide");
+                                $( "#div-compteur" ).addClass("hide");
 
 
             }
@@ -33,7 +34,7 @@
                                 {
                     m="0"+m
                 }
-                  compteur.innerHTML=h+":"+m+":"+s+"<br />"
+                  compteur.innerHTML=m+":"+s+"<br />"
             }
             duree=duree-1;
             window.setTimeout("t();",999);
@@ -41,8 +42,10 @@
         }
 
                 </script>
-                <div id="compteur" class="bg-orange padded-light delete"></div>
+
+                <div id="compteur" class=" delete"></div>
+
                 <script language="JavaScript">
-                        duree="10";
+                        duree="2";
                         t();
                 </script>

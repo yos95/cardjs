@@ -14,21 +14,53 @@
 
 
 }
+.upercase{
+  font-size :70px;
+}
+.legend-card{
+  font-size: 30px;
+  font-family: open-sans;
+}
+h1{
+  font-family: arial;
 
+
+}
+#compteur{
+
+  color: black;
+  font-size: 60px;
+
+}
+#compteur2{
+
+  color: white;
+  font-size: 40px;
+
+}
+.mot-json{
+font-size: 70px;
+font-family: open-sans;
+
+font-weight: bold;
+}
 
 .card {
-  background: #fff;
-  border-radius: 2px;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 99%),url("../images/image2.jpg");
   display: inline-block;
-  height: 300px;
+height: 350px;
   margin: 1rem;
   position: relative;
-  width: 300px;
-  margin-bottom: 5px;
+width: 300px;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  color: white;
+  border-radius: 10px;
 }
 .card-finish {
-  background: #fff;
-  border-radius: 2px;
+  border-radius: 10px;
+  color: white;
+   background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 99%),url("../images/image2.jpg");
   display: inline-block;
   height: 350px;
   margin: 1rem;
@@ -45,22 +77,10 @@
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.card-2 {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+.navbar-perso
+{
+  background-color:  rgba(252, 252, 252, 0.7);
 }
-
-.card-3 {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.card-4 {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.card-5 {
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-}
-
 
 
 .background{
@@ -100,6 +120,16 @@ background-image: linear-gradient( 135deg, #ABDCFF 0%, #0396FF 100%);
   color: white;
 }
 
+.bg-gradient-1{
+  background: #616161;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bg-gradient-2{
+
+background-color: #ecf0f1;
+}
 
 .bg-green {
   background: #32B796;
@@ -120,7 +150,7 @@ background-image: linear-gradient( 135deg, #ABDCFF 0%, #0396FF 100%);
 
 .bg-light
 {
-  background:rgba(252, 252, 252, 0.7);
+  background: rgba(252, 252, 252, 0.7);
     color: black;
 }
 .footer
