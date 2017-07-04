@@ -1,4 +1,19 @@
+.footer
+{
+  border : 2px solide black;
+  background-color:$blue-light;
+  padding : 3em;
 
+  font-size : 20px;
+
+  .fa
+  {
+    font-size : 40px;
+    color: black;
+  }
+
+
+}
 
 
 .card {
@@ -48,7 +63,17 @@
 
 
 
+.background{
+background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 99%),url(../images/background.jpg);
+color: white;
 
+background-repeat:no-repeat;
+  padding-top: 12em;
+  padding-bottom: 12em;
+color: white;
+  background-size: cover;
+
+}
 
 .padded {
   padding-top: 8em;
@@ -84,7 +109,7 @@ background-image: linear-gradient( 135deg, #ABDCFF 0%, #0396FF 100%);
   background: #6452BD;
   color: white;
 }
-.bg-silver-light {
+.bg-silver {
   background: #7F7F7F;
   color: black;
 }

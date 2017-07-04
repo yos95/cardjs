@@ -43,6 +43,6 @@
                 </script>
                 <div id="compteur" class="bg-orange padded-light delete"></div>
                 <script language="JavaScript">
-                        duree="40";
+                        duree="10";
                         t();
                 </script>
