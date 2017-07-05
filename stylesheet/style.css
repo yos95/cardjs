@@ -1,4 +1,6 @@
+
  .link-navbar:hover
+ }
 {
   border: 1px solid #D5D6D7;
 
@@ -22,10 +24,10 @@
 
 }
 .upercase{
-  font-size :70px;
+  font-size :30px;
 }
 .legend-card{
-  font-size: 30px;
+  font-size: 20px;
   font-family: open-sans;
 }
 h1{
@@ -45,20 +47,27 @@ h1{
   font-size: 40px;
 
 }
+.style-h1
+{
+  font-size: 35px;
+
+}
 .mot-json{
-font-size: 70px;
+font-size: 60px;
 font-family: open-sans;
 
 font-weight: bold;
 }
-
+.title{
+  margin: 0;
+}
 .card {
   background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 99%),url("../images/image2.jpg");
   display: inline-block;
-height: 350px;
-  margin: 1rem;
+height: 250px;
+
   position: relative;
-width: 300px;
+width: 250px;
   padding-top: 3em;
   padding-bottom: 1em;
   color: white;
@@ -68,11 +77,7 @@ width: 300px;
   border-radius: 10px;
   color: white;
    background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 99%),url("../images/image2.jpg");
-  display: inline-block;
-  height: 350px;
-  margin: 1rem;
-  position: relative;
-  width: 300px;
+
   margin-bottom: 5px;
 }
 .card-1 {

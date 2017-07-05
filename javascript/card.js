@@ -17,7 +17,7 @@ if (i > 6) {
 
   i = 0 ;
 }
-$(".card-input").html("<div id='compteur2'><p>Score</p>"+j+"</div>"+"<p class='mot-json'>"+data["mot" + i]+"</p class='mot-json'>");
+$(".card-input").html("<div id='compteur2'><p >Score</p>"+j+"</div>"+"<p class='mot-json'>"+data["mot" + i]+"</p class='mot-json'>");
 i = i + 1 ;
 j = j + 1 ;
 $(".compteur").text(j);
