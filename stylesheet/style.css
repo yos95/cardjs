@@ -130,6 +130,10 @@ color: white;
   padding-top: 4em;
   padding-bottom: 4em;
 }
+.padded-mini {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 .bg-red {
   background:#EE5F5B ;
   color: white;
