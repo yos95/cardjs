@@ -13,11 +13,11 @@ $( "#div-compteur" ).removeClass("hide");
 
 $.getJSON("data/milim.json",function(data){
 
-if (i > 6) {
+if (i > 31) {
 
   i = 0 ;
 }
-$(".card-input").html("<div id='compteur2'><p >Score</p>"+j+"</div>"+"<p class='mot-json'>"+data["mot" + i]+"</p class='mot-json'>");
+$(".card-input").html("<div id='compteur2'><p >Score</p>"+j+"</div>"+"<p class='mot-json'>"+data["Mot" + i]+"</p class='mot-json'>");
 i = i + 1 ;
 j = j + 1 ;
 $(".compteur").text(j);
