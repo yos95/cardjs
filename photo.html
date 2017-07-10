@@ -14,9 +14,7 @@
   </head>
   <body>
 
-<div class="visible-xs col-xs-12  background-mobile text-center">
-   <img src="images/image3.jpg" alt="">
-</div>
+
 
 <div class="container-fluid   text-center ">
   <div class="row">
@@ -59,31 +57,32 @@
   </div>
 </div>
 
-<div class="padded"></div>
 
-<div class="container-fluid   text-center ">
-  <div class="row">
-    <div class="visible-xs  ">
-
-      <nav class="navbar navbar-default navbar-perso navbar-collapse navbar ">
-  <div class="container-fluid">
+<footer class="footer  navbar-fixed-bottom bg-gradient-1">
+<nav class="navbar navbar-default navbar-perso navbar-collapse navbar  " id="nav">
+  <div class="container-fluid ">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-    <a class="navbar-brand  link-navbar" href="index.html">Accueil</a>
-            <a class="navbar-brand link-navbar" href="photo.html">Photo</a>
-            <a class="navbar-brand link-navbar" href="exercice.html">Exercice</a>
+    <a class="navbar-brand  link-navbar" href="index.html">רשאי</a>
+            <a class="navbar-brand link-navbar" href="photo.html">תמונה</a>
+            <a class="navbar-brand link-navbar" href="exercice.html">תרגיל</a>
     </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-    </div>
-  </div>
-</div>
-<footer class="footer bg-gradient-1">
-
- <p class="text-center">Réaliser par  <strong><a href="http://www.yoadan.com/">Yoadan </a></strong> Coypright 2017 </p>
+ <p class="text-center">Realized by  <strong><a href="http://www.yoadan.com/">Yoadan </a></strong> Coypright 2017 </p>
 </footer>
-
+<script>
+      function setActive() {
+        aObj = document.getElementById('nav').getElementsByTagName('a');
+        for(i=0;i<aObj.length;i++) {
+          if(document.location.href.indexOf(aObj[i].href)>=0) {
+            aObj[i].className='run navbar-brand link-navbar';
+          }
+        }
+      }
+      window.onload = setActive;
+</script>
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
