@@ -1,0 +1,12 @@
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+.padded-light {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.padded-mini {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}

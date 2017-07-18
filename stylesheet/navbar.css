@@ -1,0 +1,18 @@
+.navbar-perso
+{
+  background-color: rgba(252, 252, 252, 0.8) ;
+      margin-bottom: 0px;
+}
+.navbar-perso:hover
+{
+  background-color:  rgba(252, 252, 252, 1);
+
+}
+ .link-navbar:hover
+
+{
+  border: 1px solid #D5D6D7;
+
+
+
+}

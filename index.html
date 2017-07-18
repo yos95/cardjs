@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-   <link rel="stylesheet" href="stylesheet/style.css" >
+   <link rel="stylesheet" href="stylesheet/style.global.css" >
 
 
   </head>
@@ -69,23 +69,14 @@
 
 
 
-<script>
-      function setActive() {
-        aObj = document.getElementById('nav').getElementsByTagName('a');
-        for(i=0;i<aObj.length;i++) {
-          if(document.location.href.indexOf(aObj[i].href)>=0) {
-            aObj[i].className='run navbar-brand link-navbar';
-          }
-        }
-      }
-      window.onload = setActive;
-</script>
+
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="javascript/card.js" type="text/javascript"></script>
+    <script src="javascript/addMarker.js" type="text/javascript"></script>
 
   </body>
 
