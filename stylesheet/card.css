@@ -1,5 +1,5 @@
 .card {
- display: inline-block;
+ display: flex;
   height: 250px;
   position: relative;
   width: 250px;
