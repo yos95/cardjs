@@ -5,7 +5,7 @@
   width: 250px;
   padding-top: 3em;
   padding-bottom: 1em;
-  border-color: 1px dotted silver;
+  border: 1px dotted silver;
   border-radius: 10px;
  text-align : center;
 }
