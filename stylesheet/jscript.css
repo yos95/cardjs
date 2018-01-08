@@ -5,11 +5,16 @@ background-color:#bdc3c7;
 }
 
 .mot-json{
-font-size: 60px;
-font-family: open-sans;
-
-font-weight: bold;
-}
+  font-size: 26pt;
+  font-family: open-sans;
+  font-weight: bold;
+  width: 0.5em;
+  height: auto;
+  overflow: hidden;
+  word-wrap: break-word;
+  margin: auto;
+  color: black;
+ }
 .title{
   margin: 0;
 }

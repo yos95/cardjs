@@ -46,6 +46,6 @@
                 <div id="compteur" class=" delete"></div>
 
                 <script language="JavaScript">
-                        duree="60";
+                        duree="60000";
                         t();
                 </script>
